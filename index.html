@@ -5,70 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PDK</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body class="main__body">
 
     <!-- Header -->
     <header class="header" id="header">
         <div class="container">
-            <div class="header">
-                <div class="logo">
-                    <img src="/img/Logo.svg" alt="img" class="logo__img">
-                </div>
-                <div class="search">
-                    <div class="search-top">
-                        <button class="search-top__catalog">
+            <div class="header-sections">
 
-                        </button>
-    
-                        <input type="text" class="search-top__input">
-    
-                    </div>
-                    <div class="search-buttom">
-                        <div class="search-buttom__file">
-                            <img src="/img/file.svg" alt="img">
-                            <a href="" class="search-buttom__link">
-                                Заказать файлом
-                            </a>
-                        </div>
-                        <div class="search-buttom__discounts">
-                            <a href="" class="search-buttom__link">
-                                Скидки и Акции
-                            </a>
-                        </div>
-                        <div class="search-buttom__company">
-                            <a href="" class="search-buttom__link">
-                                О компании
-                            </a>
-                        </div>
-
-                    </div>
-
-                </div>
-                <div class="info">
-                    <div class="info-top">
-                        <div class="info-basket">
-                            <img src="/img/basket.svg" alt="img">
-                        </div>
-                        <div class="info-contacts">
-                            <p>Служба поддержки:</p>
-                            <a href="#">8 800 158 58 58</a>
-                            <a href="#">Заказать звонок </a>
-                        </div>
-                    </div>
-                    <div class="info-buttom">
-                        <div class="info-button__delivery">
-                            <a href="#" class="info-buttom__link">
-                                Доставка и Оплата
-                            </a>
-                        </div>
-                        <div class="info-button__contscts">
-                            <a href="#" class="info-buttom__link">
-                                Контакты
-                            </a>
-                        </div>
+                <div class="header-sections-logo">
+                    <div class="logo">
+                        <img src="/img/Logo.svg" alt="img" class="logo__img">
                     </div>
                 </div>
+                    
+                <div class="header-sections-nav">
+
+                    <div class="header-sections-nav-top">
+                        <div class="search">
+                            <div class="search-top">
+                                <button class="search-top__catalog">
+                                    <span class="search-top__catalog-title">Каталог</span>
+                                </button>
+            
+                                <input type="text" class="search-top__input" >
+                            </div>
+                        </div>
+
+                        <div class="info">
+                            <div class="info-top">
+                                <div class="info-basket">
+                                    <img src="/img/basket.svg" alt="img">
+                                </div>
+                                <div class="info-contacts">
+                                    <p class="info-contacts-support">Служба поддержки:</p>
+                                    <a href="#" class="info-contacts-number">8 800 158 58 58</a>
+                                    <a href="#" class="info-contacts-order">Заказать звонок </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="header-sections-nav-buttom">
+                        <div class="header-sections-nav-buttom-link">
+
+                            <div class="header-sections-nav-buttom-link__file">
+                                <img src="/img/file.svg" alt="img">
+                                <a href="#" class="header-sections-nav-buttom__link_activ">
+                                    Заказать файлом
+                                </a>
+                            </div>
+
+                            <div class="header-sections-nav-buttom-link__links">
+                                <div class="header-sections-nav-buttom__link">
+                                    <a href="#" class="header-sections-nav-buttom__link_passiv">Скидки и Акции</a>
+                                </div>
+                                <div class="header-sections-nav-buttom__link">
+                                    <a href="#" class="header-sections-nav-buttom__link_passiv">О компании</a>
+                                </div>
+                                <div class="header-sections-nav-buttom__link">
+                                    <a href="#" class="header-sections-nav-buttom__link_passiv">Доставка и Оплата</a>
+                                </div>
+                                <div class="header-sections-nav-buttom__link">
+                                    <a href="#" class="header-sections-nav-buttom__link_passiv">Контакты</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </header>
@@ -82,38 +93,46 @@
             <div class="variety-row">
 
                 <div class="variety-row-block">
-                    <div class="variety-row-block__img">
-                        <img src="/img/variety-img.svg" alt="img">
-                    </div>
-                    <div class="variety-row-block__title">
-                        <a href="#">Шариковые подшипники</a>
-                    </div>
-                </div>
-
-                <div class="variety-row-block">
-                    <div class="variety-row-block__img">
-                        <img src="/img/variety-img.svg" alt="img">
-                    </div>
-                    <div class="variety-row-block__title">
-                        <a href="#">Шариковые подшипники</a>
+                    <div class="variety-row-block-elements">
+                        <div class="variety-row-block__img">
+                            <img src="/img/variety-img.svg" alt="img">
+                        </div>
+                        <div class="variety-row-block__title">
+                            <a href="#" class="variety-row-block__title-title">Шариковые подшипники</a>
+                        </div>
                     </div>
                 </div>
 
                 <div class="variety-row-block">
-                    <div class="variety-row-block__img">
-                        <img src="/img/variety-img.svg" alt="img">
-                    </div>
-                    <div class="variety-row-block__title">
-                        <a href="#">Шариковые подшипники</a>
+                    <div class="variety-row-block-elements">
+                        <div class="variety-row-block__img">
+                            <img src="/img/variety-img.svg" alt="img">
+                        </div>
+                        <div class="variety-row-block__title">
+                            <a href="#" class="variety-row-block__title-title">Шариковые подшипники</a>
+                        </div>
                     </div>
                 </div>
 
                 <div class="variety-row-block">
-                    <div class="variety-row-block__img">
-                        <img src="/img/variety-img.svg" alt="img">
+                    <div class="variety-row-block-elements">
+                        <div class="variety-row-block__img">
+                            <img src="/img/variety-img.svg" alt="img">
+                        </div>
+                        <div class="variety-row-block__title">
+                            <a href="#" class="variety-row-block__title-title">Шариковые подшипники</a>
+                        </div>
                     </div>
-                    <div class="variety-row-block__title">
-                        <a href="#">Шариковые подшипники</a>
+                </div>
+
+                <div class="variety-row-block">
+                    <div class="variety-row-block-elements">
+                        <div class="variety-row-block__img">
+                            <img src="/img/variety-img.svg" alt="img">
+                        </div>
+                        <div class="variety-row-block__title">
+                            <a href="#" class="variety-row-block__title-title">Шариковые подшипники</a>
+                        </div>
                     </div>
                 </div>
 
@@ -122,38 +141,46 @@
             <div class="variety-row">
 
                 <div class="variety-row-block">
-                    <div class="variety-row-block__img">
-                        <img src="/img/variety-img.svg" alt="img">
-                    </div>
-                    <div class="variety-row-block__title">
-                        <a href="#">Шариковые подшипники</a>
-                    </div>
-                </div>
-
-                <div class="variety-row-block">
-                    <div class="variety-row-block__img">
-                        <img src="/img/variety-img.svg" alt="img">
-                    </div>
-                    <div class="variety-row-block__title">
-                        <a href="#">Шариковые подшипники</a>
+                    <div class="variety-row-block-elements">
+                        <div class="variety-row-block__img">
+                            <img src="/img/variety-img.svg" alt="img">
+                        </div>
+                        <div class="variety-row-block__title">
+                            <a href="#" class="variety-row-block__title-title">Шариковые подшипники</a>
+                        </div>
                     </div>
                 </div>
 
                 <div class="variety-row-block">
-                    <div class="variety-row-block__img">
-                        <img src="/img/variety-img.svg" alt="img">
-                    </div>
-                    <div class="variety-row-block__title">
-                        <a href="#">Шариковые подшипники</a>
+                    <div class="variety-row-block-elements">
+                        <div class="variety-row-block__img">
+                            <img src="/img/variety-img.svg" alt="img">
+                        </div>
+                        <div class="variety-row-block__title">
+                            <a href="#" class="variety-row-block__title-title">Шариковые подшипники</a>
+                        </div>
                     </div>
                 </div>
 
                 <div class="variety-row-block">
-                    <div class="variety-row-block__img">
-                        <img src="/img/variety-img.svg" alt="img">
+                    <div class="variety-row-block-elements">
+                        <div class="variety-row-block__img">
+                            <img src="/img/variety-img.svg" alt="img">
+                        </div>
+                        <div class="variety-row-block__title">
+                            <a href="#" class="variety-row-block__title-title">Шариковые подшипники</a>
+                        </div>
                     </div>
-                    <div class="variety-row-block__title">
-                        <a href="#">Шариковые подшипники</a>
+                </div>
+
+                <div class="variety-row-block">
+                    <div class="variety-row-block-elements">
+                        <div class="variety-row-block__img">
+                            <img src="/img/variety-img.svg" alt="img">
+                        </div>
+                        <div class="variety-row-block__title">
+                            <a href="#" class="variety-row-block__title-title">Шариковые подшипники</a>
+                        </div>
                     </div>
                 </div>
 
@@ -162,38 +189,46 @@
             <div class="variety-row">
 
                 <div class="variety-row-block">
-                    <div class="variety-row-block__img">
-                        <img src="/img/variety-img.svg" alt="img">
-                    </div>
-                    <div class="variety-row-block__title">
-                        <a href="#">Шариковые подшипники</a>
-                    </div>
-                </div>
-
-                <div class="variety-row-block">
-                    <div class="variety-row-block__img">
-                        <img src="/img/variety-img.svg" alt="img">
-                    </div>
-                    <div class="variety-row-block__title">
-                        <a href="#">Шариковые подшипники</a>
+                    <div class="variety-row-block-elements">
+                        <div class="variety-row-block__img">
+                            <img src="/img/variety-img.svg" alt="img">
+                        </div>
+                        <div class="variety-row-block__title">
+                            <a href="#" class="variety-row-block__title-title">Шариковые подшипники</a>
+                        </div>
                     </div>
                 </div>
 
                 <div class="variety-row-block">
-                    <div class="variety-row-block__img">
-                        <img src="/img/variety-img.svg" alt="img">
-                    </div>
-                    <div class="variety-row-block__title">
-                        <a href="#">Шариковые подшипники</a>
+                    <div class="variety-row-block-elements">
+                        <div class="variety-row-block__img">
+                            <img src="/img/variety-img.svg" alt="img">
+                        </div>
+                        <div class="variety-row-block__title">
+                            <a href="#" class="variety-row-block__title-title">Шариковые подшипники</a>
+                        </div>
                     </div>
                 </div>
 
                 <div class="variety-row-block">
-                    <div class="variety-row-block__img">
-                        <img src="/img/variety-img.svg" alt="img">
+                    <div class="variety-row-block-elements">
+                        <div class="variety-row-block__img">
+                            <img src="/img/variety-img.svg" alt="img">
+                        </div>
+                        <div class="variety-row-block__title">
+                            <a href="#" class="variety-row-block__title-title">Шариковые подшипники</a>
+                        </div>
                     </div>
-                    <div class="variety-row-block__title">
-                        <a href="#">Шариковые подшипники</a>
+                </div>
+
+                <div class="variety-row-block">
+                    <div class="variety-row-block-elements">
+                        <div class="variety-row-block__img">
+                            <img src="/img/variety-img.svg" alt="img">
+                        </div>
+                        <div class="variety-row-block__title">
+                            <a href="#" class="variety-row-block__title-title">Шариковые подшипники</a>
+                        </div>
                     </div>
                 </div>
 
@@ -201,262 +236,266 @@
         </section>
         <!--Карточки продуктов-->
         <section class="product">
+            <div class="product-sections">
 
-            <div class="product-top">
-                <div class="product-top__title">
-                    <h2>Товары</h2>
-                    <a href="#">Популярные</a>
-                    <a href="#">Новинки</a>
-                    <a href="#">Супер Акция</a>
-                </div>
-                <div class="product-top__sections">
+                <div class="product-top">
 
-                </div>
-            </div>
-
-            <div class="product-card">
-                <!--1строка-->
-                <div class="product-card-row">
-
-                    <div class="product-card-row-block">
-                        <div class="product-card-row-block__img">
-                            <a href="#">
-                                <img src="/img/product.svg" alt="img">
-                            </a>
-                        </div>
-                        <div class="product-card-row-block__info">
-                            <a href="#">TITAN LOCK</a>
-                            <p>Донный клапан шаровый под приварку с пневмоприводом, нерж.304 DN40, TLBBV40WD-P TITAN LOCK</p>
-                        </div>
-                        <div class="product-card-row-block__price">
-                            <p>14 416 ₽/шт.</p>
-                            <p>14 416 ₽/шт.</p>
-                        </div>
-                        <div class="product-card-row-block__button">
-                            <button>В корзину</button>
-                        </div>
+                    <div class="product-top__title">
+                        <p>Товары</p>
                     </div>
 
-                    <div class="product-card-row-block">
-                        <div class="product-card-row-block__img">
-                            <a href="#">
-                                <img src="/img/product.svg" alt="img">
-                            </a>
-                        </div>
-                        <div class="product-card-row-block__info">
-                            <a href="#">TITAN LOCK</a>
-                            <p>Донный клапан шаровый под приварку с пневмоприводом, нерж.304 DN40, TLBBV40WD-P TITAN LOCK</p>
-                        </div>
-                        <div class="product-card-row-block__price">
-                            <p>14 416 ₽/шт.</p>
-                            <p>14 416 ₽/шт.</p>
-                        </div>
-                        <div class="product-card-row-block__button">
-                            <button>В корзину</button>
-                        </div>
+                    <div class="product-top__sections">
+                        <a href="#" class="product-top__sections-link">Популярные</a>
+                        <a href="#" class="product-top__sections-link">Новинки</a>
+                        <a href="#" class="product-top__sections-link">Супер Акция</a>
                     </div>
-
-
-                    <div class="product-card-row-block">
-                        <div class="product-card-row-block__img">
-                            <a href="#">
-                                <img src="/img/product.svg" alt="img">
-                            </a>
-                        </div>
-                        <div class="product-card-row-block__info">
-                            <a href="#">TITAN LOCK</a>
-                            <p>Донный клапан шаровый под приварку с пневмоприводом, нерж.304 DN40, TLBBV40WD-P TITAN LOCK</p>
-                        </div>
-                        <div class="product-card-row-block__price">
-                            <p>14 416 ₽/шт.</p>
-                            <p>14 416 ₽/шт.</p>
-                        </div>
-                        <div class="product-card-row-block__button">
-                            <button>В корзину</button>
-                        </div>
-                    </div>
-
-                    <div class="product-card-row-block">
-                        <div class="product-card-row-block__img">
-                            <a href="#">
-                                <img src="/img/product.svg" alt="img">
-                            </a>
-                        </div>
-                        <div class="product-card-row-block__info">
-                            <a href="#">TITAN LOCK</a>
-                            <p>Донный клапан шаровый под приварку с пневмоприводом, нерж.304 DN40, TLBBV40WD-P TITAN LOCK</p>
-                        </div>
-                        <div class="product-card-row-block__price">
-                            <p>14 416 ₽/шт.</p>
-                            <p>14 416 ₽/шт.</p>
-                        </div>
-                        <div class="product-card-row-block__button">
-                            <button>В корзину</button>
-                        </div>
-                    </div>
-
-
-                    <div class="product-card-row-block">
-                        <div class="product-card-row-block__img">
-                            <a href="#">
-                                <img src="/img/product.svg" alt="img">
-                            </a>
-                        </div>
-                        <div class="product-card-row-block__info">
-                            <a href="#">TITAN LOCK</a>
-                            <p>Донный клапан шаровый под приварку с пневмоприводом, нерж.304 DN40, TLBBV40WD-P TITAN LOCK</p>
-                        </div>
-                        <div class="product-card-row-block__price">
-                            <p>14 416 ₽/шт.</p>
-                            <p>14 416 ₽/шт.</p>
-                        </div>
-                        <div class="product-card-row-block__button">
-                            <button>В корзину</button>
-                        </div>
-                    </div>
-
-                    <div class="product-card-row-block">
-                        <div class="product-card-row-block__img">
-                            <a href="#">
-                                <img src="/img/product.svg" alt="img">
-                            </a>
-                        </div>
-                        <div class="product-card-row-block__info">
-                            <a href="#">TITAN LOCK</a>
-                            <p>Донный клапан шаровый под приварку с пневмоприводом, нерж.304 DN40, TLBBV40WD-P TITAN LOCK</p>
-                        </div>
-                        <div class="product-card-row-block__price">
-                            <p>14 416 ₽/шт.</p>
-                            <p>14 416 ₽/шт.</p>
-                        </div>
-                        <div class="product-card-row-block__button">
-                            <button>В корзину</button>
-                        </div>
-                    </div>
-
 
                 </div>
-
-                <!--2строка-->
-                <div class="product-card-row">
-
-                    <div class="product-card-row-block">
-                        <div class="product-card-row-block__img">
-                            <a href="#">
-                                <img src="/img/product.svg" alt="img">
-                            </a>
+    
+                <div class="product-card">
+                    <!--1строка-->
+                    <div class="product-card-row">
+    
+                        <div class="product-card-row-block">
+                            <div class="product-card-row-block__img">
+                                <a href="#">
+                                    <img src="/img/product.svg" alt="img">
+                                </a>
+                            </div>
+                            <div class="product-card-row-block__info">
+                                <a href="#" class="product-card-row-block__info-title">TITAN LOCK</a>
+                                <p class="product-card-row-block__info-text">Донный клапан шаровый под приварку с пневмоприводом, нерж.304 DN40...</p>
+                            </div>
+                            <div class="product-card-row-block__price">
+                                <s class="product-card-row-block__price-top">14 416 ₽/шт.</s>
+                                <p class="product-card-row-block__price-buttom">14 416 ₽/шт.</p>
+                            </div>
+                            <div class="product-card-row-block__button">
+                                <button class="product-card-row-block__button-button">В корзину</button>
+                            </div>
                         </div>
-                        <div class="product-card-row-block__info">
-                            <a href="#">TITAN LOCK</a>
-                            <p>Донный клапан шаровый под приварку с пневмоприводом, нерж.304 DN40, TLBBV40WD-P TITAN LOCK</p>
+    
+                        <div class="product-card-row-block">
+                            <div class="product-card-row-block__img">
+                                <a href="#">
+                                    <img src="/img/product.svg" alt="img">
+                                </a>
+                            </div>
+                            <div class="product-card-row-block__info">
+                                <a href="#" class="product-card-row-block__info-title">TITAN LOCK</a>
+                                <p class="product-card-row-block__info-text">Донный клапан шаровый под приварку с пневмоприводом, нерж.304 DN40...</p>
+                            </div>
+                            <div class="product-card-row-block__price">
+                                <p class="product-card-row-block__price-top">14 416 ₽/шт.</p>
+                                <p class="product-card-row-block__price-buttom">14 416 ₽/шт.</p>
+                            </div>
+                            <div class="product-card-row-block__button">
+                                <button class="product-card-row-block__button-button">В корзину</button>
+                            </div>
                         </div>
-                        <div class="product-card-row-block__price">
-                            <p>14 416 ₽/шт.</p>
-                            <p>14 416 ₽/шт.</p>
+    
+    
+                        <div class="product-card-row-block">
+                            <div class="product-card-row-block__img">
+                                <a href="#">
+                                    <img src="/img/product.svg" alt="img">
+                                </a>
+                            </div>
+                            <div class="product-card-row-block__info">
+                                <a href="#" class="product-card-row-block__info-title">TITAN LOCK</a>
+                                <p class="product-card-row-block__info-text">Донный клапан шаровый под приварку с пневмоприводом, нерж.304 DN40...</p>
+                            </div>
+                            <div class="product-card-row-block__price">
+                                <p class="product-card-row-block__price-top">14 416 ₽/шт.</p>
+                                <p class="product-card-row-block__price-buttom">14 416 ₽/шт.</p>
+                            </div>
+                            <div class="product-card-row-block__button">
+                                <button class="product-card-row-block__button-button">В корзину</button>
+                            </div>
                         </div>
-                        <div class="product-card-row-block__button">
-                            <button>В корзину</button>
+    
+                        <div class="product-card-row-block">
+                            <div class="product-card-row-block__img">
+                                <a href="#">
+                                    <img src="/img/product.svg" alt="img">
+                                </a>
+                            </div>
+                            <div class="product-card-row-block__info">
+                                <a href="#" class="product-card-row-block__info-title">TITAN LOCK</a>
+                                <p class="product-card-row-block__info-text">Донный клапан шаровый под приварку с пневмоприводом, нерж.304 DN40...</p>
+                            </div>
+                            <div class="product-card-row-block__price">
+                                <p class="product-card-row-block__price-top">14 416 ₽/шт.</p>
+                                <p class="product-card-row-block__price-buttom">14 416 ₽/шт.</p>
+                            </div>
+                            <div class="product-card-row-block__button">
+                                <button class="product-card-row-block__button-button">В корзину</button>
+                            </div>
                         </div>
+    
+    
+                        <div class="product-card-row-block">
+                            <div class="product-card-row-block__img">
+                                <a href="#">
+                                    <img src="/img/product.svg" alt="img">
+                                </a>
+                            </div>
+                            <div class="product-card-row-block__info">
+                                <a href="#" class="product-card-row-block__info-title">TITAN LOCK</a>
+                                <p class="product-card-row-block__info-text">Донный клапан шаровый под приварку с пневмоприводом, нерж.304 DN40...</p>
+                            </div>
+                            <div class="product-card-row-block__price">
+                                <p class="product-card-row-block__price-top">14 416 ₽/шт.</p>
+                                <p class="product-card-row-block__price-buttom">14 416 ₽/шт.</p>
+                            </div>
+                            <div class="product-card-row-block__button">
+                                <button class="product-card-row-block__button-button">В корзину</button>
+                            </div>
+                        </div>
+    
+                        <div class="product-card-row-block">
+                            <div class="product-card-row-block__img">
+                                <a href="#">
+                                    <img src="/img/product.svg" alt="img">
+                                </a>
+                            </div>
+                            <div class="product-card-row-block__info">
+                                <a href="#" class="product-card-row-block__info-title">TITAN LOCK</a>
+                                <p class="product-card-row-block__info-text">Донный клапан шаровый под приварку с пневмоприводом, нерж.304 DN40...</p>
+                            </div>
+                            <div class="product-card-row-block__price">
+                                <p class="product-card-row-block__price-top">14 416 ₽/шт.</p>
+                                <p class="product-card-row-block__price-buttom">14 416 ₽/шт.</p>
+                            </div>
+                            <div class="product-card-row-block__button">
+                                <button class="product-card-row-block__button-button">В корзину</button>
+                            </div>
+                        </div>
+    
+    
                     </div>
-
-                    <div class="product-card-row-block">
-                        <div class="product-card-row-block__img">
-                            <a href="#">
-                                <img src="/img/product.svg" alt="img">
-                            </a>
+    
+                    <!--2строка-->
+                    <div class="product-card-row">
+    
+                        <div class="product-card-row-block">
+                            <div class="product-card-row-block__img">
+                                <a href="#">
+                                    <img src="/img/product.svg" alt="img">
+                                </a>
+                            </div>
+                            <div class="product-card-row-block__info">
+                                <a href="#" class="product-card-row-block__info-title">TITAN LOCK</a>
+                                <p class="product-card-row-block__info-text">Донный клапан шаровый под приварку с пневмоприводом, нерж.304 DN40...</p>
+                            </div>
+                            <div class="product-card-row-block__price">
+                                <p class="product-card-row-block__price-top">14 416 ₽/шт.</p>
+                                <p class="product-card-row-block__price-buttom">14 416 ₽/шт.</p>
+                            </div>
+                            <div class="product-card-row-block__button">
+                                <button class="product-card-row-block__button-button">В корзину</button>
+                            </div>
                         </div>
-                        <div class="product-card-row-block__info">
-                            <a href="#">TITAN LOCK</a>
-                            <p>Донный клапан шаровый под приварку с пневмоприводом, нерж.304 DN40, TLBBV40WD-P TITAN LOCK</p>
+    
+                        <div class="product-card-row-block">
+                            <div class="product-card-row-block__img">
+                                <a href="#">
+                                    <img src="/img/product.svg" alt="img">
+                                </a>
+                            </div>
+                            <div class="product-card-row-block__info">
+                                <a href="#" class="product-card-row-block__info-title">TITAN LOCK</a>
+                                <p class="product-card-row-block__info-text">Донный клапан шаровый под приварку с пневмоприводом, нерж.304 DN40...</p>
+                            </div>
+                            <div class="product-card-row-block__price">
+                                <p class="product-card-row-block__price-top">14 416 ₽/шт.</p>
+                                <p class="product-card-row-block__price-buttom">14 416 ₽/шт.</p>
+                            </div>
+                            <div class="product-card-row-block__button">
+                                <button class="product-card-row-block__button-button">В корзину</button>
+                            </div>
                         </div>
-                        <div class="product-card-row-block__price">
-                            <p>14 416 ₽/шт.</p>
-                            <p>14 416 ₽/шт.</p>
+    
+    
+                        <div class="product-card-row-block">
+                            <div class="product-card-row-block__img">
+                                <a href="#">
+                                    <img src="/img/product.svg" alt="img">
+                                </a>
+                            </div>
+                            <div class="product-card-row-block__info">
+                                <a href="#" class="product-card-row-block__info-title">TITAN LOCK</a>
+                                <p class="product-card-row-block__info-text">Донный клапан шаровый под приварку с пневмоприводом, нерж.304 DN40...</p>
+                            </div>
+                            <div class="product-card-row-block__price">
+                                <p class="product-card-row-block__price-top">14 416 ₽/шт.</p>
+                                <p class="product-card-row-block__price-buttom">14 416 ₽/шт.</p>
+                            </div>
+                            <div class="product-card-row-block__button">
+                                <button class="product-card-row-block__button-button">В корзину</button>
+                            </div>
                         </div>
-                        <div class="product-card-row-block__button">
-                            <button>В корзину</button>
+    
+                        <div class="product-card-row-block">
+                            <div class="product-card-row-block__img">
+                                <a href="#">
+                                    <img src="/img/product.svg" alt="img">
+                                </a>
+                            </div>
+                            <div class="product-card-row-block__info">
+                                <a href="#" class="product-card-row-block__info-title">TITAN LOCK</a>
+                                <p class="product-card-row-block__info-text">Донный клапан шаровый под приварку с пневмоприводом, нерж.304 DN40...</p>
+                            </div>
+                            <div class="product-card-row-block__price">
+                                <p class="product-card-row-block__price-top">14 416 ₽/шт.</p>
+                                <p class="product-card-row-block__price-buttom">14 416 ₽/шт.</p>
+                            </div>
+                            <div class="product-card-row-block__button">
+                                <button class="product-card-row-block__button-button">В корзину</button>
+                            </div>
                         </div>
+    
+    
+                        <div class="product-card-row-block">
+                            <div class="product-card-row-block__img">
+                                <a href="#">
+                                    <img src="/img/product.svg" alt="img">
+                                </a>
+                            </div>
+                            <div class="product-card-row-block__info">
+                                <a href="#" class="product-card-row-block__info-title">TITAN LOCK</a>
+                                <p class="product-card-row-block__info-text">Донный клапан шаровый под приварку с пневмоприводом, нерж.304 DN40...</p>
+                            </div>
+                            <div class="product-card-row-block__price">
+                                <p class="product-card-row-block__price-top">14 416 ₽/шт.</p>
+                                <p class="product-card-row-block__price-buttom">14 416 ₽/шт.</p>
+                            </div>
+                            <div class="product-card-row-block__button">
+                                <button class="product-card-row-block__button-button">В корзину</button>
+                            </div>
+                        </div>
+    
+                        <div class="product-card-row-block">
+                            <div class="product-card-row-block__img">
+                                <a href="#">
+                                    <img src="/img/product.svg" alt="img">
+                                </a>
+                            </div>
+                            <div class="product-card-row-block__info">
+                                <a href="#" class="product-card-row-block__info-title">TITAN LOCK</a>
+                                <p class="product-card-row-block__info-text">Донный клапан шаровый под приварку с пневмоприводом, нерж.304 DN40...</p>
+                            </div>
+                            <div class="product-card-row-block__price">
+                                <p class="product-card-row-block__price-top">14 416 ₽/шт.</p>
+                                <p class="product-card-row-block__price-buttom">14 416 ₽/шт.</p>
+                            </div>
+                            <div class="product-card-row-block__button">
+                                <button class="product-card-row-block__button-button">В корзину</button>
+                            </div>
+                        </div>
+    
+    
                     </div>
-
-
-                    <div class="product-card-row-block">
-                        <div class="product-card-row-block__img">
-                            <a href="#">
-                                <img src="/img/product.svg" alt="img">
-                            </a>
-                        </div>
-                        <div class="product-card-row-block__info">
-                            <a href="#">TITAN LOCK</a>
-                            <p>Донный клапан шаровый под приварку с пневмоприводом, нерж.304 DN40, TLBBV40WD-P TITAN LOCK</p>
-                        </div>
-                        <div class="product-card-row-block__price">
-                            <p>14 416 ₽/шт.</p>
-                            <p>14 416 ₽/шт.</p>
-                        </div>
-                        <div class="product-card-row-block__button">
-                            <button>В корзину</button>
-                        </div>
-                    </div>
-
-                    <div class="product-card-row-block">
-                        <div class="product-card-row-block__img">
-                            <a href="#">
-                                <img src="/img/product.svg" alt="img">
-                            </a>
-                        </div>
-                        <div class="product-card-row-block__info">
-                            <a href="#">TITAN LOCK</a>
-                            <p>Донный клапан шаровый под приварку с пневмоприводом, нерж.304 DN40, TLBBV40WD-P TITAN LOCK</p>
-                        </div>
-                        <div class="product-card-row-block__price">
-                            <p>14 416 ₽/шт.</p>
-                            <p>14 416 ₽/шт.</p>
-                        </div>
-                        <div class="product-card-row-block__button">
-                            <button>В корзину</button>
-                        </div>
-                    </div>
-
-
-                    <div class="product-card-row-block">
-                        <div class="product-card-row-block__img">
-                            <a href="#">
-                                <img src="/img/product.svg" alt="img">
-                            </a>
-                        </div>
-                        <div class="product-card-row-block__info">
-                            <a href="#">TITAN LOCK</a>
-                            <p>Донный клапан шаровый под приварку с пневмоприводом, нерж.304 DN40, TLBBV40WD-P TITAN LOCK</p>
-                        </div>
-                        <div class="product-card-row-block__price">
-                            <p>14 416 ₽/шт.</p>
-                            <p>14 416 ₽/шт.</p>
-                        </div>
-                        <div class="product-card-row-block__button">
-                            <button>В корзину</button>
-                        </div>
-                    </div>
-
-                    <div class="product-card-row-block">
-                        <div class="product-card-row-block__img">
-                            <a href="#">
-                                <img src="/img/product.svg" alt="img">
-                            </a>
-                        </div>
-                        <div class="product-card-row-block__info">
-                            <a href="#">TITAN LOCK</a>
-                            <p>Донный клапан шаровый под приварку с пневмоприводом, нерж.304 DN40, TLBBV40WD-P TITAN LOCK</p>
-                        </div>
-                        <div class="product-card-row-block__price">
-                            <p>14 416 ₽/шт.</p>
-                            <p>14 416 ₽/шт.</p>
-                        </div>
-                        <div class="product-card-row-block__button">
-                            <button>В корзину</button>
-                        </div>
-                    </div>
-
-
                 </div>
             </div>
 
@@ -464,60 +503,70 @@
         
         <!--Карточки скидок и акций-->
         <section class="promotion">
+            <div class="promotion-sections">
 
-            <div class="promotion-top">
-                <div class="promotion-top__title">
-                    <p>Акции и Скидки</p>
+                <div class="promotion-top">
+                    <div class="promotion-top__title">
+                        <p class="promotion-top__title-title">Акции и Скидки</p>
+                    </div>
                 </div>
-            </div>
+    
+                <div class="promotion-card">
+                    <!--1карточка-->
+                    <div class="promotion-card-block">
+                        <div class="promotion-card-block-sections-left">
+                            <div class="promotion-card-block__time">
+                                <div class="promotion-card-block__time-title">
+                                    15:08:56
+                                </div>
+                            </div>
+                            <div class="promotion-card-block__info1">
+                                Огромный выбор подшипников различных видов и типоразмеров
+                            </div>
+                            <div class="promotion-card-block__button">
+                                <button class="promotion-card-block__button-button1">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--2карточка-->
+                    <div class="promotion-card-block">
+                        <div class="promotion-card-block-sections-center">
+                            <div class="promotion-card-block__time">
+                                <div class="promotion-card-block__time-title">
+                                    15:08:56
+                                </div>
+                            </div>
+                            <div class="promotion-card-block__info2">
+                                Сегодня скидки на товары дня 80%
+                            </div>
+                            <div class="promotion-card-block__button">
+                                <button class="promotion-card-block__button-button2">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--3карточка-->
+                    <div class="promotion-card-block">
+                        <div class="promotion-card-block-sections-right">
+                            <div class="promotion-card-block__time">
+                                <div class="promotion-card-block__time-title">
+                                    15:08:56
+                                </div>
+                            </div>
+                            <div class="promotion-card-block__info3">
+                                Огромный выбор подшипников различных видов и типоразмеров
+                            </div>
+                            <div class="promotion-card-block__button">
+                                <button class="promotion-card-block__button-button3">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-            <div class="promotion-card">
-                <!--1карточка-->
-                <div class="promotion-card-block">
-                    <div class="promotion-card-block__time">
-                        <div class="promotion-card-block__time-title">
-                            15:08:56
-                        </div>
-                    </div>
-                    <div class="promotion-card-block__info">
-                        Огромный выбор подшипников различных видов и типоразмеров
-                    </div>
-                    <div class="promotion-card-block__button">
-                        <button>Подробнее</button>
-                    </div>
-                </div>
-                <!--2карточка-->
-                <div class="promotion-card-block">
-                    <div class="promotion-card-block__time">
-                        <div class="promotion-card-block__time-title">
-                            15:08:56
-                        </div>
-                    </div>
-                    <div class="promotion-card-block__info">
-                        Огромный выбор подшипников различных видов и типоразмеров
-                    </div>
-                    <div class="promotion-card-block__button">
-                        <button>Подробнее</button>
-                    </div>
-                </div>
-                <!--3карточка-->
-                <div class="promotion-card-block">
-                    <div class="promotion-card-block__time">
-                        <div class="promotion-card-block__time-title">
-                            15:08:56
-                        </div>
-                    </div>
-                    <div class="promotion-card-block__info">
-                        Огромный выбор подшипников различных видов и типоразмеров
-                    </div>
-                    <div class="promotion-card-block__button">
-                        <button>Подробнее</button>
-                    </div>
+                <div class="promotion-button">
+                    <button class="promotion-button-button"> Все акции</button>
                 </div>
             </div>
-            <div class="promotion-button">
-                <button>Все акции</button>
-            </div>
+            
         </section>
 
 
@@ -529,15 +578,45 @@
 
         <!--Преимущества-->
         <section class="advantage">
-            <div class="advantage-block-title">
-                <p></p>
-            </div>
-            <div class="advantage-block-card">
-                <div class="advantage-block-card__card">
-                    <img src="/img/card-advantage.svg" alt="img">
-                    <p>Доставка по всей России</p>
+            <div class="advantage-sections">
+                <div class="advantage-block-title">
+                    <p>В чем огромный плюс в работе с нами?</p>
+                </div>
+    
+                <div class="advantage-block-card">
+
+                    <div class="advantage-block-card__card">
+                        <img src="/img/card-advantage1.svg" alt="img">
+                        <p>Доставка по всей России</p>
+                    </div>
+
+                    <div class="advantage-block-card__card">
+                        <img src="/img/card-advantage2.svg" alt="img">
+                        <p>Более 200 складов по всей России</p>
+                    </div>
+
+                    <div class="advantage-block-card__card">
+                        <img src="/img/card-advantage3.svg" alt="img">
+                        <p>Премиального качества от мировых лидеров производства</p>
+                    </div>
+
+                    <div class="advantage-block-card__card">
+                        <img src="/img/card-advantage4.svg" alt="img">
+                        <p>Скидки постоянным клиентам</p>
+                    </div>
+
+                    <div class="advantage-block-card__card">
+                        <img src="/img/card-advantage5.svg" alt="img">
+                        <p>Круглосуточная поддержка</p>
+                    </div>
+
+                    <div class="advantage-block-card__card">
+                        <img src="/img/card-advantage6.svg" alt="img">
+                        <p>Нет в наличии? Привезём под заказ в короткие сроки</p>
+                    </div>
                 </div>
             </div>
+            
         </section>
 
 
@@ -547,51 +626,62 @@
             <div class="map-title">
                 <p>Более 200 складов по всей России</p>
             </div>
-
+            <div class="map-map">
+                <img src="/img/map.svg" alt="">
+            </div>
         </section>
 
 
         <!--Вопросы-->
         <section class="questions">
-            <div class="container">
-                <div class="questions-title">
-                    <div class="questions-title__title">
-                        Остались вопросы?
-                    </div>
-                    <div class="questions-title__info">
-                        Имеется спорная точка зрения, гласящая примерно следующее: предприниматели в сети интернет заблокированы в рамках своих собственных рациональных ограничений.
+            
+                <div class="questions-sections">
 
+                    <div class="questions-title">
+                        <div class="questions-title__title">
+                            <p class="questions-title__title-title1">Остались </p> 
+                            <p class="questions-title__title-title2"> вопросы?</p> 
+                        </div>
+                        <div class="questions-title__info-sections">
+                            <div class="questions-title__info">
+                                Имеется спорная точка зрения, гласящая примерно следующее: предприниматели в сети интернет заблокированы в рамках своих собственных рациональных ограничений.
+        
+                            </div>
+                            <div class="questions-title__info">
+                                В своём стремлении улучшить пользовательский.
+                            </div>
+                        </div>
+                        
                     </div>
-                    <div class="questions-title__info">
-                        В своём стремлении улучшить пользовательский.
+    
+                    <div class="questions-input">
+                        <div class="questions-input__name">
+                            <input type="text" class="questions-input__name" placeholder="Как вас зовут?">
+                        </div>
+                        <div class="questions-input__number">
+                            <input type="text" class="questions-input__number" placeholder="Куда нам ответить или перезвонить?">
+                        </div>
+                        <div class="questions-input__comment">
+                            <input type="text" class="questions-input__comment" placeholder="Вопрос / комментарий / пожелание">
+                        </div>
+
+                        <div class="questions-input-buttom">
+                            <div class="question-input__sogl">
+                                <input type="checkbox">
+                            </div>
+                            <div class="question-input__sogl-text">
+                                <p>Даю согласие на обработку персональных 
+                                    данный в соответствии с пользовательским соглашением</p>
+                            </div>
+        
+                            <div class="questions-input__button">
+                                <button class="questions-input__button-button">Написать нам</button>
+                            </div>
+                        </div>
+    
+                        
                     </div>
                 </div>
-                <div class="questions-input">
-                    <div class="questions-input__name">
-                        <input type="text">
-                    </div>
-                    <div class="questions-input__number">
-                        <input type="text">
-                    </div>
-                    <div class="questions-input__comment">
-                        <input type="text">
-                    </div>
-
-                    <div class="question-input__sogl">
-                        <input type="checkbox">
-                    </div>
-                    <div class="question-input__sogl-text">
-                        <p>Даю согласие на обработку персональных 
-                            данный в соответствии с пользовательским соглашением</p>
-                    </div>
-
-                    <div class="questions-input__button">
-                        <button>Написать нам</button>
-                    </div>
-                </div>
-
-
-            </div>
         </section>
 
 
@@ -600,79 +690,95 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="contsiner">
-            <div class="footer-block">
-                <div class="footer-block-info">
-                    
-                    <div class="footer-block-info-section">
-                        <div class="footer-block-info-section__title">
-                            <p>Адрес: </p>
-                        </div>
-                        <div class="footer-block-info-section__info">
-                            <p>Москва, ул. Воробьевад. 158, офис 187</p>
-                        </div>
-                    </div>
+        <div class="footer-top">
+            <div class="footer-sections">
 
-                    <div class="footer-block-info-section">
-                        <div class="footer-block-info-section__title">
-                            <p>Телефон: </p>
+                <!--1 блок-->
+                <div class="footer-block">
+                    <div class="footer-block-info">
+                        
+                        <div class="footer-block-info-section">
+                            <div class="footer-block-info-section__title">
+                                <p>Адрес: </p>
+                            </div>
+                            <div class="footer-block-info-section__info">
+                                <p>Москва, ул. Воробьева д. 158, офис 187</p>
+                            </div>
                         </div>
-                        <div class="footer-block-info-section__info">
-                            <p>+7 898 566 56 85</p>
-                            <p>+7 898 566 56 85</p>
+    
+                        <div class="footer-block-info-section">
+                            <div class="footer-block-info-section__title">
+                                <p>Телефон: </p>
+                            </div>
+                            <div class="footer-block-info-section__info">
+                                <p>+7 898 566 56 85</p>
+                                <p>+7 898 566 56 85</p>
+                            </div>
+                        </div>
+                        
+                        <div class="footer-block-info-section">
+                            <div class="footer-block-info-section__social">
+                                <div class="footer-block-info-section__telegram">
+                                    <a href="#">
+                                        <img src="/img/telegram.svg" alt="img">
+                                    </a>
+                                </div>
+                                <div class="footer-block-info-section__viber">
+                                    <a href="#">
+                                        <img src="/img/telegram.svg" alt="img">
+                                    </a>
+                                </div>
+                                <div class="footer-block-info-section__watsap">
+                                    <a href="#">
+                                        <img src="/img/telegram.svg" alt="img">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+    
+                <!--2 блок-->
+                <div class="footer-block">
+                    <div class="footer-block-logo">
+                        <div class="footer-block-logo__img">
+                            <img src="/img/logo-footer.svg" alt="img">
                         </div>
                     </div>
-                    
-                    <div class="footer-block-info-section">
-                        <div class="footer-block-info-section__social">
-                            <div class="footer-block-info-section__telegram">
-                                <a href="#">
-                                    <img src="/img/telegram.svg" alt="img">
-                                </a>
-                            </div>
-                            <div class="footer-block-info-section__viber">
-                                <a href="#">
-                                    <img src="/img/telegram.svg" alt="img">
-                                </a>
-                            </div>
-                            <div class="footer-block-info-section__watsap">
-                                <a href="#">
-                                    <img src="/img/telegram.svg" alt="img">
-                                </a>
-                            </div>
+                </div>
+    
+                <!--3 блок-->
+                <div class="footer-block">
+                    <div class="footer-block-link">
+                        <div class="footer-block-link_link">
+                            <a href="" class="footer-block-link_link-link">Каталог</a>
+                        </div>
+                        <div class="footer-block-link_link">
+                            <a href="" class="footer-block-link_link-link">Скидки и Акции</a>
+                        </div>
+                        <div class="footer-block-link_link">
+                            <a href="" class="footer-block-link_link-link">О компании</a>
+                        </div>
+                        <div class="footer-block-link_link">
+                            <a href="" class="footer-block-link_link-link">Доставка и Оплата</a>
+                        </div>
+                        <div class="footer-block-link_link">
+                            <a href="" class="footer-block-link_link-link">Контакты</a>
+                        </div>
+                        <div class="footer-block-link_link">
+                            <img src="/img/footer-logo-marketing.svg" alt="img">
                         </div>
                     </div>
-
                 </div>
             </div>
-            <div class="footer-block">
-                <div class="footer-block-logo">
-                    <div class="footer-block-logo__img">
-                        <img src="/img/logo-footer.svg" alt="img">
-                    </div>
-                </div>
-            </div>
-            <div class="footer-block">
-                <div class="footer-block-link">
-                    <div class="footer-block-link_link">
-                        <a href="">Каталог</a>
-                    </div>
-                    <div class="footer-block-link_link">
-                        <a href="">Скидки и Акции</a>
-                    </div>
-                    <div class="footer-block-link_link">
-                        <a href="">О компании</a>
-                    </div>
-                    <div class="footer-block-link_link">
-                        <a href="">Доставка и Оплата</a>
-                    </div>
-                    <div class="footer-block-link_link">
-                        <a href="">Контакты</a>
-                    </div>
-                    <div class="footer-block-link_link">
-                        <img src="/img/footer-logo-marketing.svg" alt="img">
-                    </div>
-                </div>
+        </div>
+            
+
+
+        <div class="footer-sections-buttom">
+            <div class="footer-sections-buttom__name">
+                <p class="footer-sections-buttom__name-name">© 2023 - ООО «КПД-подшипниковая компания»</p>
             </div>
         </div>
 
