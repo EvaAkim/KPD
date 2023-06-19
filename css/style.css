@@ -127,9 +127,12 @@ html, body {font-family: 'Roboto Slab';}
 
   .header-sections-nav-buttom__link_activ{
     color: #991B1E;
+    margin-left: 10px;
+    font-size: 17px;
   }
   .header-sections-nav-buttom__link_passiv{
     color: #0E262D;
+    font-size: 17px;
   }
   .header-sections-nav-buttom-link__file{
     display: flex;
@@ -342,13 +345,32 @@ html, body {font-family: 'Roboto Slab';}
   padding-top: 15px;
   padding-left: 30px;
 }
-.promotion-card-block__time-title{
+.promotion-card-block__time-title1{
+  width: 74px;
+  height: 25px;
+  background-color: #991B1E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat';
+}
+.promotion-card-block__time-title2{
   width: 74px;
   height: 25px;
   background-color: #F5F5F5;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Montserrat';
+}
+.promotion-card-block__time-title3{
+  width: 74px;
+  height: 25px;
+  background-color: #991B1E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat';
 }
 
 
@@ -430,12 +452,27 @@ html, body {font-family: 'Roboto Slab';}
 .advantage-block-card{
     display: flex;
     gap: 20px;
+    font-family: 'Montserrat';
+    font-weight: 500;
 }
 
+.advantage-block-card__card-img{
+  margin-bottom: 20px;
+}
 .advantage-block-card__card{
   width: 183px;
   text-align: center;
 }
+
+.advantage-block-title{
+  margin-bottom: 63px;
+}
+
+.advantage-block-title-title{
+  font-size: 60px;
+  font-weight: 600;
+}
+
 
 /*---Вопросы---*/
 .questions{
@@ -542,13 +579,18 @@ html, body {font-family: 'Roboto Slab';}
 /*---Карта---*/
 .map-title{
     display: flex;
-    justify-content: center;
+    justify-content: start;
     width: 1200px;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
 }
+
+.map-title-title{
+  font-size: 60px;
+}
+
 
 /*---footer---*/
 .footer-top{
@@ -607,18 +649,18 @@ html, body {font-family: 'Roboto Slab';}
 
 
 .footer-sections-buttom{
-    background-color: #0E262D;
+    background-color: #263b42;
     height: 28px;
-}
-
-.footer-sections-buttom__name{
     display: flex;
     justify-content: center;
+    align-items: center;
+    
 }
+
 
 
 .footer-sections-buttom__name-name{
   font-family: 'Montserrat';
   font-size: 10px;
-  color: #F5F5F5;
+  color: #798589;
 }
