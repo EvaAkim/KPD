@@ -65,7 +65,7 @@ html, body {font-family: 'Roboto Slab';}
   .header-sections-nav-top{
     display: flex;
     flex-direction: row;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
   }
   .search-top{
     margin-right: 89px;
@@ -159,6 +159,36 @@ html, body {font-family: 'Roboto Slab';}
 /*---main---*/
 /*---Карточки категорий---*/
 
+
+.variety-title{
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.variety-title_breadcrumb-breadcrumb{
+  display: flex;
+  flex-direction: row;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  gap: 10px;
+}
+
+.variety-title_breadcrumb-breadcrumb{
+  color: #869295;
+}
+
+.variety-title_title-catalog{
+  font-size: 40px;
+  font-weight: 600;
+  color: #0E262D;
+}
 
 .variety-row{
     display: flex;
@@ -273,6 +303,7 @@ html, body {font-family: 'Roboto Slab';}
 
 .product-card-row-block__price{
   margin-left: 10px;
+ vertical-align: bottom;
 }
 .product-card-row-block__price-top{
   color: #CCCCCC;
@@ -285,6 +316,7 @@ html, body {font-family: 'Roboto Slab';}
 .product-card-row-block__button{
   display: flex;
   justify-content: center;
+  vertical-align: bottom;
 }
 .product-card-row-block__button-button{
   width: 163px;
@@ -293,6 +325,7 @@ html, body {font-family: 'Roboto Slab';}
   color: #F5F5F5;
   font-weight: 600;
   font-family: 'Roboto Slab';
+  vertical-align: bottom;
 }
 
 /*---Карточки скидок и акций---*/
