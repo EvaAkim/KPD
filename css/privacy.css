@@ -1,0 +1,17 @@
+.section-policyprivacy{
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    margin-bottom: 46px;
+    color: #0E262D;
+    font-family: 'Montserrat';
+}
+
+.privacy-title-activ{
+    color: #991B1E;
+    font-family: 'Roboto Slab';
+}
