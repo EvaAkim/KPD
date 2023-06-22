@@ -84,7 +84,10 @@ html, body {font-family: 'Roboto Slab';}
   .search-top__input{
     width: 506px;
     height: 40px;
+    background: url(/img/search.svg) no-repeat center right;
+    padding-right: 30px;
     background-color: #F5F5F5;
+
   }
 
 
@@ -199,6 +202,15 @@ margin-left: 102px;
     height: 320px;
   }
 }
+
+.swiper-pagination-bullet{
+  color: #991B1E;
+}
+.swiper-pagination-bullet-active{
+  color: #CCCCCC;
+}
+
+
 
 /*---Карточки категорий---*/
 
