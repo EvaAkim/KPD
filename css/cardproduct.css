@@ -1,0 +1,160 @@
+.block-cardproduct{
+    background-color: #F5F5F5;
+    height: 500px;
+}
+
+
+.cardproduct-section-block{
+    display: flex;
+    width: 1200px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffff;
+    height: 419px;
+    padding-top: 40px;
+}
+
+.cardproduct-section-block-img{
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+
+.cardproduct-section-block-img-column{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    margin-right: 31px;
+
+}
+
+.cardproduct-section-block-info{
+    width: 610px;
+}
+
+.cardproduct-section-block-info-text{
+    margin-bottom: 34px;
+}
+.cardproduct-section-block-info-text-text{
+    font-family: 'Montserrat';
+    color: #0E262D;
+    font-size: 18px;
+}
+
+
+.basket-sections-form__elements-price-active{
+    margin-right: 20px;
+}
+
+.cardproduct-section-block-info-price{
+    margin-bottom: 20px;
+}
+.cardproduct-section-block-info-amount{
+    display: flex;
+    align-items: center;
+    margin-bottom: 71px;
+}
+
+.cardproduct-section-block-info-analogues-block{
+    display: flex;
+    align-items: center;
+}
+
+
+.cardproduct-section-block-info-analogues-block-img{
+    margin-right: 13px;
+}
+
+.cardproduct-section-block-info-analogues-block-link{
+    color: #991B1E;
+    font-size: 16px;
+}
+
+
+.description{
+    display: flex;
+    width: 1200px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.description-block-top__list{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    margin-left: 40px;
+}
+.description-block-top__list-link{
+    color: #0E262D;
+    font-family: 'Roboto Slab';
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.description-block-top__line{
+    margin-bottom: 35px;
+}
+
+.description-block-buttom{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 60px;
+}
+
+.description-block-buttom__text{
+    margin-left: 20px;
+    width: 792px;
+}
+.description-block-buttom__text-text{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    color: #0E262D;
+}
+
+/*---Документы---*/
+
+.description-block-top{
+    display: flex;
+    width: 1200px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+}
+.documentation{
+    display: flex;
+    width: 1200px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.documentation-block{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.documentation-block-certificates__title{
+    margin-bottom: 30px;
+
+}
+.documentation-block-links__link1{
+    display: flex;
+    align-items: center;
+
+}
+
+.documentation-block-links__link-link{
+    color: #991B1E;
+    margin-left: 10px;
+}
+
+/*---Аналоги---*/
+
+
+
