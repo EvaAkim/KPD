@@ -68,20 +68,5 @@
 
 
 /*---Карта---*/
-.map-title{
-    display: flex;
-    justify-content: start;
-    width: 1200px;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-}
 
-.map-title-title{
-  font-size: 60px;
-}
 
-.map-section{
-  height: 691px;
-}
