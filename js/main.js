@@ -9,7 +9,7 @@ const swiper = new Swiper(".swiper", {
 
   function init() {
     let map = new ymaps.Map('map', {
-        center: [55.721855816906015,37.57365503630026],
+        center: [55.75554289958026,37.64131907421875],
         zoom: 9
 
     });

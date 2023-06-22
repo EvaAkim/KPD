@@ -157,6 +157,49 @@ html, body {font-family: 'Roboto Slab';}
   }
   
 /*---main---*/
+
+/*---Слайдер---*/
+.swiper{
+  display: flex;
+    justify-content: center;
+    width: 1200px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 320px;
+    margin-bottom: 40px;
+}
+
+.swiper-slide-title{
+  font-size: 30px;
+font-family: Roboto Slab;
+font-weight: 600;
+color: #F5F5F5;
+width: 413px;
+margin-left: 102px;
+margin-bottom: 20px;
+margin-top: 70px;
+
+}
+
+.swiper-slide-button{
+  font-size: 18px;
+font-family: Roboto Slab;
+font-weight: 600;
+color: #F5F5F5;
+background-color: #0E262D;
+width: 202px;
+height: 40px;
+margin-left: 102px;
+}
+
+@media only screen and (max-width: 768px){
+  .swiper{
+    width: 728px;
+    height: 320px;
+  }
+}
+
 /*---Карточки категорий---*/
 
 
@@ -174,6 +217,12 @@ html, body {font-family: 'Roboto Slab';}
     background-color: #0E262D;
     width: 280px;
     height: 100px;
+}
+
+@media only screen and (max-width: 768px){
+  .variety-row-block{
+    width: 270px;
+  }
 }
 
 .variety-row-block-elements{
@@ -245,6 +294,16 @@ html, body {font-family: 'Roboto Slab';}
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+@media only screen and (max-width: 768px){
+ 
+}
+
+@media only screen and (max-width: 768px){
+  .variety-row-block{
+    width: 173px;
+  }
 }
 .product-card-row-block__img{
   margin-left: 10px;
@@ -345,6 +404,18 @@ html, body {font-family: 'Roboto Slab';}
   padding-top: 15px;
   padding-left: 30px;
 }
+
+@media only screen and (max-width: 768px){
+  .promotion-card-block-sections-right{
+    display: none;
+  }
+  .promotion-card{
+    display: flex;
+    justify-content: center;
+}
+
+}
+
 .promotion-card-block__time-title1{
   width: 74px;
   height: 25px;
@@ -589,6 +660,10 @@ html, body {font-family: 'Roboto Slab';}
 
 .map-title-title{
   font-size: 60px;
+}
+
+.map{
+  height: 691px;
 }
 
 
